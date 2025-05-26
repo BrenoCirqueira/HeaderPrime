@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    background-color: gray;
+}
+
+header{
+    background-color: #00050d;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+/* Primeira parte */
+
+.fist{
+    display: flex;
+    align-items: center;
+}
+.fist img{
+    width: 96px;
+    cursor: pointer;
+    margin-right: 35px;
+    margin-left: 35px;
+
+}
+
+.fist nav{
+    display:flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.fist nav a{
+    font-weight: 550;
+    font-size: 15px;
+}
+
+.fist nav a .rodar{
+    display: inline-block;
+    transform: rotate(90deg);
+    font-size: 20px;
+}
+
+#link{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+/* Fim Da peimeira Parte */
+
+/* Inicio Segunda Parte */
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    margin-right: 32px;
+}
+.second i{
+    font-size: 20px;
+}
+
+.second button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.second img{
+    width: 30px;
+}
+
+#assinar{
+    background-color: #1988e4 ;
+    border-radius: 10px;
+    padding: 10px;
+}
