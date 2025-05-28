@@ -4,6 +4,7 @@
     box-sizing: border-box;
     color: white;
     text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
@@ -43,7 +44,20 @@ header{
 .fist nav a{
     font-weight: 550;
     font-size: 15px;
+    padding: 10px 10px ;
 }
+
+.fist nav a:hover{
+    background-color: #fff;
+    border-radius: 10px;
+    color: #000000;
+}
+
+a:hover .rodar{
+    color: #00050d;
+}
+
+
 
 .fist nav a .rodar{
     display: inline-block;
@@ -63,25 +77,70 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 28px;
-    margin-right: 32px;
+    gap: 18px;
+    margin-right: 28px;
 }
 .second i{
     font-size: 20px;
 }
 
+
 .second button{
     background: none;
     border: none;
     cursor: pointer;
+    padding: 10px 10px;
 }
+
+.second button:hover{
+    background-color: #fff;
+    border-radius: 50%;
+    
+    i{
+        color: #00050d;
+    }
+}
+
 
 .second img{
     width: 30px;
+}
+
+.second .estilounico{
+    padding: 10px 10px;
+}
+
+.estilounico:hover{
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.estilounico:hover i{
+    color: #00050d;
+}
+.imagemperfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.imagemperfil:hover{
+    border: 6px solid #fff;
+    border-radius: 50%;
 }
 
 #assinar{
     background-color: #1988e4 ;
     border-radius: 10px;
     padding: 10px;
+    text-align: center;
+    font-weight: 550;
 }
+
+#assinar:hover{
+    background-color: rgba(26, 152, 255);
+    box-shadow: 0 0 12px gray;
+}
+
